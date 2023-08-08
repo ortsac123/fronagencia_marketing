@@ -1,4 +1,6 @@
 import CaseCard from "./CaseCard";
+import ReactElasticCarousel from "@itseasy21/react-elastic-carousel";
+import Carousel from "react-elastic-carousel";
 
 const posts = [
   {

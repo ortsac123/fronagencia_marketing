@@ -17,3 +17,16 @@ body::-webkit-scrollbar {
     border: 5px  rgba(0, 3, 4, 0.06);  /* creates padding around scroll thumb */
   }
 
+  .rec.rec-arrow:hover {
+    background-color: #ffffff;
+    border-color: black;
+  }
+
+  .rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+  .rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px rgb(252, 252, 252);
+}
+
